@@ -1,0 +1,6 @@
+BRCA1 (NM_007294): https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=NM_007294&rettype=fasta
+TP53 (NM_000546): https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=NM_000546&rettype=fasta
+EGFR (NM_005228): https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=NM_005228&rettype=fasta
+KRAS (NM_004985): https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=NM_004985&rettype=fasta
+PTEN (NM_000314): https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=NM_000314&rettype=fasta
+
