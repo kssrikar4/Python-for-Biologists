@@ -5,6 +5,8 @@
 [![Python Version](https://img.shields.io/badge/Python-3.11-3776AB?logo=python&logoColor=white)](https://pyodide.org)
 [![Bioinformatics](https://img.shields.io/badge/Domain-Bioinformatics-8A2BE2)](#)
 
+![preview](assets/preview.png)
+
 An interactive, zero-installation, serverless educational web platform designed to teach foundational programming and data science to biological workflows.
 
 > **Live Application:** [https://kssrikar4.github.io/Python-for-Biologists/](https://kssrikar4.github.io/Python-for-Biologists/)
