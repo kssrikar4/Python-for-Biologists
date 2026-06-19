@@ -17,6 +17,11 @@ function updateXP(points, caseId) {
     }
 }
 
+function toggleSidebar() {
+    const sidebar = document.getElementById('sidebar');
+    sidebar.classList.toggle('collapsed');
+}
+
 function renderDashboard() {
     const xpCounter = document.getElementById('xp-counter');
     const xpBar = document.getElementById('xp-bar');

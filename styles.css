@@ -29,13 +29,28 @@ body, html {
     padding: 2rem 1rem;
     flex-shrink: 0;
     z-index: 100;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: -320px;
+    transition: left 0.3s ease;
 }
+
+#sidebar.collapsed {
+    left: 0;
+}
+
+#sidebar.collapsed {
+    left: 0;
+}
+
 .sidebar-brand {
     font-size: 1.5rem;
     font-weight: 800;
     background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    margin-top: 2rem;
     margin-bottom: 2.5rem;
     padding-left: 0.5rem;
 }
@@ -69,7 +84,24 @@ body, html {
     overflow-y: auto;
     scroll-behavior: smooth;
     padding: 4rem 15% 6rem 15%;
+    margin-left: 0;
 }
+
+#toggle-sidebar-btn {
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+    z-index: 101; /* Keeps it above the sidebar layer */
+    padding: 0.5rem 1rem;
+    background-color: var(--primary);
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-weight: 600;
+    box-shadow: var(--card-shadow);
+}
+
 .lesson-header { margin-bottom: 4rem; text-align: left; }
 .lesson-header h1 { font-size: 3.5rem; font-weight: 800; margin: 0 0 1rem 0; letter-spacing: -0.02em; }
 .lesson-header p { font-size: 1.25rem; color: var(--text-muted); line-height: 1.5; max-width: 800px; }
